@@ -9,10 +9,3 @@ data.each do |attribute, attribute_subcat|
     end
 pidgeon_list
 end
-#data.reduce({}) do |memo, (key, value_pidgeon)|
-#  value_pidgeon = [data[:gender][:male], data[:gender][:female]]
-#  memo[value_pidgeon] = key
-#  memo
-#  end
-
-#data[:color][:purple][0]

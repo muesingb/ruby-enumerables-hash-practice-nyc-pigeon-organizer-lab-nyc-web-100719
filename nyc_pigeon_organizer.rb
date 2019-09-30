@@ -2,17 +2,10 @@ def nyc_pigeon_organizer(data)
 pidgeon_list = {}
 data.each do |attribute, attribute_subcat|
   attribute_subcat.each do |attribute_sub, name_array|
-      name_array.each do |name|
-        pidgeon_list[name] = {}
+      name_array.each do |name_array, name|
+        pidgeon_list[name_array] = {}
         end
       end
     end
 pidgeon_list
 end
-#data.reduce({}) do |memo, (key, value_pidgeon)|
-#  value_pidgeon = [data[:gender][:male], data[:gender][:female]]
-#  memo[value_pidgeon] = key
-#  memo
-#  end
-
-#data[:color][:purple][0]
